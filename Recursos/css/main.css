@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para barra de menú principal */
+
+nav,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i {
+height: 100px;
+line-height: 100px;
+}
+
+nav ul a {
+    color: #6a6a6a;
+}
+
+
+@media screen and (max-width:768px){
+
+    nav,
+    nav .nav-wrapper i,
+    nav a.button-collapse,
+    nav a.button-collapse i {
+    height: 60px;
+    line-height: 0px;
+    }
+
+    nav img{
+        width: 150px;
+        margin-top: -10px;
+         
+    }
+
+  
+
+}
+
+
+/* ------------------------- */
+
+.carousel{
+    height: 100vh;
+}
+
+.carousel .indicators .indicator-item {
+    height: 12px;
+    width: 12px;
+}
+
+/* Estilo para los objetos con alineación vertical */
+
+@media screen and (max-width:768px){
+    .valign-wrapper {
+        display: inline-block;
+    }
+}
+
+
+/* Estilos para controles input */
+
+/* label focus color */
+.input-field input:focus + label , .input-field textarea:focus + label{
+    color: #e59691 !important;
+  }
+ 
+ i{
+     color: white !important;
+ }
+ 
+  /* label underline focus color */
+  .row .input-field input:focus , .row .input-field textarea:focus {
+    border-bottom: 1px solid #e59691 !important;
+    box-shadow: 0 1px 0 0 #e59691 !important
+  }     
+ 
+   .row .input-field input .valid{
+    border-bottom: 1px solid #e59691 !important;
+    box-shadow: 0 1px 0 0 #e59691 !important
+  }     
+ 
+ input , textarea{
+     color: white;
+ }
+
+
+ #imenu {
+    color: #424242 !important;
+}
+
+

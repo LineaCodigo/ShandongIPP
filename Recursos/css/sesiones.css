@@ -1,0 +1,246 @@
+
+
+            #pr1 {     
+                
+            background-image: url('../img/PortadaCateEmb6.png');
+            
+            background-size:cover;
+            transition: all .6s ease-in;
+            background-position: 0px, 0px;             
+            height: 470px;
+
+            margin-top: 35px;
+            }
+    
+            #pr1:hover {
+                background-size: cover;            
+                background-position: 0px, 0px;
+                
+            }
+    
+            #pr1:before{
+                background-color: rgba(229, 150, 145, 0.3);
+                content: '';
+                display: block;
+                height: 470px;
+                position: absolute;
+                left: 0;
+                width: 100%;
+                transition: all .6s ease-in;
+            }
+    
+            #pr1:hover:before{
+                background-color: rgba(229, 150, 145, 0.1);
+                content: '';
+                display: block;
+                height: 470px;
+                position: absolute;
+                left: 0;
+                width: 100%;
+            }
+    
+            #pr2 {     
+                
+            background-image: url('../img/ProdCateNB2.jpg');
+            
+            background-size:cover;
+            transition: all .6s ease-in;
+            background-position: 0px, 0px;             
+            height: 470px;
+            }
+    
+            #pr2:hover {
+                background-size: cover;            
+                background-position: 0px, 0px;                
+            }
+    
+            #pr2:before{
+                background-color: rgba(229, 150, 145, 0.2);
+                content: '';
+                display: block;
+                height: 470px;
+                position: absolute;
+                left: 0;
+                width: 100%;
+                transition: all .6s ease-in;
+            }
+    
+            #pr2:hover:before{
+                background-color: rgba(229, 150, 145, 0.1);
+                content: '';
+                display: block;
+                height: 470px;
+                position: absolute;
+                left: 0;
+                width: 100%;
+            }
+    
+    
+    
+    
+            #pr3 {     
+                
+            background-image: url('../img/ProdCateBB.jpg');
+            
+            background-size:cover;
+            transition: all .6s ease-in;
+            background-position: 0px, 0px;             
+            height: 470px;
+            }
+    
+            #pr3:hover {
+                background-size: cover;            
+                background-position: 0px, 0px;
+                
+            }
+    
+            #pr3:before{
+                background-color: rgba(229, 150, 145, 0.3);
+                content: '';
+                display: block;
+                height: 470px;
+                position: absolute;
+                left: 0;
+                width: 100%;
+                transition: all .6s ease-in;
+            }
+    
+            #pr3:hover:before{
+                background-color: rgba(229, 150, 145, 0.1);
+                content: '';
+                display: block;
+                height: 470px;
+                position: absolute;
+                left: 0;
+                width: 100%;
+            }
+
+
+            #pr4 {     
+                
+                background-image: url('../img/ProdCateSC.png');
+                
+                background-size:cover;
+                transition: all .6s ease-in;
+                background-position: 0px, 0px;             
+                height: 470px;
+                }
+        
+                #pr4:hover {
+                    background-size: cover;            
+                    background-position: 0px, 0px;
+                    
+                }
+        
+                #pr4:before{
+                    background-color: rgba(229, 150, 145, 0.3);
+                    content: '';
+                    display: block;
+                    height: 470px;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    transition: all .6s ease-in;
+                }
+        
+                #pr4:hover:before{
+                    background-color: rgba(229, 150, 145, 0.1);
+                    content: '';
+                    display: block;
+                    height: 470px;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                }
+                
+
+
+            @media screen and (max-width:768px){
+
+
+                #pr1 {                                  
+                    height: 160px;
+
+                    margin-top: 5px;
+
+                    }
+            
+                    #pr1:hover {
+                        background-size: cover;            
+                        background-position: 0px, 0px;
+                        
+                    }
+            
+                    #pr1:before{
+                        background-color: rgba(229, 150, 145, 0.3);
+                        content: '';
+                        display: block;
+                        height: 160px;
+                        position: absolute;
+                        left: 0;
+                        width: 100%;
+                        transition: all .6s ease-in;
+                    }
+
+                    #pr1:hover:before{
+                        background-color: rgba(229, 150, 145, 0.1);
+                        content: '';
+                        display: block;
+                        height: 160px;
+                        position: absolute;
+                        left: 0;
+                        width: 100%;
+                    }
+
+
+                    
+                   #pr2 {                                    
+                    height: 190px;
+                    }
+            
+            
+                    #pr2:before{
+                        height: 190px;
+                    }
+
+                    #pr2:hover:before{
+
+                        height: 190px;
+
+                    }
+
+                    #pr3 {                                    
+                    height: 190px;
+                    }
+            
+            
+                    #pr3:before{
+                        height: 190px;
+                    }
+
+                    #pr3:hover:before{
+
+                        height: 190px;
+
+                    }
+
+                    #pr4 {                                    
+                    height: 190px;
+                    }
+            
+            
+                    #pr4:before{
+                        height: 190px;
+                    }
+
+                    #pr4:hover:before{
+
+                        height: 190px;
+
+                    }
+            
+                
+
+            }
+            
+    
