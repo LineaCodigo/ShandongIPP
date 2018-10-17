@@ -29,44 +29,6 @@ $app->get('/',  function(Request $request, Response $response) {
 
 //-------------- Vista de paginas ------------------//
 
-$app->get('/sesiones',  function(){  
-   include_once 'View/sesiones.php';
-});
-
-$app->get('/embarazo',  function(){  
-    include_once 'View/embarazo.php';  
- });
-
- $app->get('/newborn',  function(){  
-    include_once 'View/newborn.php';  
- });
-
- $app->get('/bebes',  function(){  
-    include_once 'View/bebes.php';  
- });
-
- $app->get('/smashcake',  function(){  
-    include_once 'View/smashcake.php';  
- });
-
- $app->get('/mi-portafolio',  function(){  
-    include_once 'View/mi-portafolio.php';  
- });
-
-
- $app->get('/historias',  function(){  
-    include_once 'View/historias.php';  
- });
-
-
- $app->get('/isabela',  function(){  
-    include_once 'View/isabela.php';  
- });
-
-
- $app->get('/una-foto-una-prueba-de-tu-amor',  function(){  
-    include_once 'View/una-foto-una-prueba-de-tu-amor.php';  
- });
 
  $app->get('/categorias',  function(){  
     include_once 'View/categorias.php';  

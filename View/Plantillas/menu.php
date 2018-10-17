@@ -7,7 +7,7 @@
         
         <ul class="left hide-on-med-and-down" style="padding-left: 250px;">
         
-        <li><a href="./categorias">Categorías</a></li>
+        <li><a href="categorias">Categorías</a></li>
             
         </ul>
         
@@ -21,7 +21,7 @@
       
 
         <ul class="right hide-on-med-and-down">
-            <li><a href="./tiendas">Tiendas</a></li>
+            <li><a href="tiendas">Tiendas</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>                
         

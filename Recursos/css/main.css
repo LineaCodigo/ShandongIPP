@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -15,7 +15,8 @@ line-height: 100px;
 }
 
 nav ul a {
-    color: #6a6a6a;
+    color: #303030;
+    
 }
 
 
@@ -64,7 +65,7 @@ nav ul a {
 
 /* label focus color */
 .input-field input:focus + label , .input-field textarea:focus + label{
-    color: #e59691 !important;
+    color: #a5a386 !important;
   }
  
  i{
@@ -73,13 +74,13 @@ nav ul a {
  
   /* label underline focus color */
   .row .input-field input:focus , .row .input-field textarea:focus {
-    border-bottom: 1px solid #e59691 !important;
-    box-shadow: 0 1px 0 0 #e59691 !important
+    border-bottom: 1px solid #a5a386 !important;
+    box-shadow: 0 1px 0 0 #a5a386 !important
   }     
  
    .row .input-field input .valid{
-    border-bottom: 1px solid #e59691 !important;
-    box-shadow: 0 1px 0 0 #e59691 !important
+    border-bottom: 1px solid #a5a386 !important;
+    box-shadow: 0 1px 0 0 #a5a386 !important
   }     
  
  input , textarea{
@@ -88,7 +89,7 @@ nav ul a {
 
 
  #imenu {
-    color: #424242 !important;
+    color: #1d1d1d !important;
 }
 
 

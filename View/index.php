@@ -91,7 +91,7 @@
 
 
 </head>
-<body style="background-color:#eeeeee;">
+<body style="background-color:#d1d1d1;">
     <!-- Plant. código para cuerpo  -->
     <?php include_once './View/Plantillas/cuerpo.php'; ?>
     <!-- --> 
@@ -147,8 +147,10 @@
   <!-- ----------------------------- -->
 
   <section class="container-wide" style="padding-top: 3rem;">
-        <h4 class="center-align"style="color: #7a7a7a;">Productos destacados o promociones</h4>
-        <br><br>
+        <h4 class="center-align"style="color: #3a3a3a; border-bottom:4px solid #b50307; width:700px;font-weight:400;">Productos destacados o promociones</h4>
+
+
+        <br>
         
 
   <div class="row" style="width:90%;">
@@ -158,8 +160,8 @@
           <img src="Recursos/img/Producto1.jpg">
         </div>
         <div class="card-content" style="background-color:white; height:110px;">
-          <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
-          <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
+          <p style="color:#151515; font-size:10pt; margin-top:-14px;font-weight:600;">Planchas de PVC - Celtex - Sintra - Polifán</p>
+          <a class="waves-effect waves-light btn" href="#" style="margin-left:125px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
         </div>
       </div>
     </div>
@@ -170,8 +172,8 @@
           <img src="Recursos/img/Producto2.jpg">
         </div>
         <div class="card-content" style="background-color:white; height:110px;">
-          <p style="color:#151515; font-size:10pt; margin-top:-14px;">Parante negro nacional</p>
-          <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:20px; background-color:#b50307;color:white; ">Más info</a>
+          <p style="color:#151515; font-size:10pt; margin-top:-14px;font-weight:600;">Parante negro nacional</p>
+          <a class="waves-effect waves-light btn-small " href="#" style="margin-left:125px; margin-top:20px; background-color:#b50307;color:white; ">Más info</a>
         </div>
       </div>
     </div>
@@ -182,8 +184,8 @@
           <img src="Recursos/img/Producto3.jpg">
         </div>
         <div class="card-content" style="background-color:white; height:110px;">
-          <p style="color:#151515; font-size:10pt; margin-top:-14px;">Módulos LED</p>
-          <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:20px; background-color:#b50307;color:white; ">Más info</a>
+          <p style="color:#151515; font-size:10pt; margin-top:-14px;font-weight:600;">Módulos LED</p>
+          <a class="waves-effect waves-light btn-small " href="#" style="margin-left:125px; margin-top:20px; background-color:#b50307;color:white; ">Más info</a>
         </div>
       
       </div>
@@ -196,9 +198,9 @@
           <img src="Recursos/img/Producto1.jpg">
         </div>
         <div class="card-content" style="background-color:white; height:110px;">
-          <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
+          <p style="color:#151515; font-size:10pt; margin-top:-14px;font-weight:600;">Planchas de PVC - Celtex - Sintra - Polifán</p>
           
-          <a class="waves-effect waves-light btn-small" href="#" style="margin-left:150px; margin-top:5px; background-color:#b50307;color:white; ">Más info</a>    
+          <a class="waves-effect waves-light btn-small" href="#" style="margin-left:125px; margin-top:5px; background-color:#b50307;color:white; ">Más info</a>    
         </div>
         
       </div>
@@ -209,76 +211,54 @@
   </section>
   <br><br>
 
- <!--   Carrusel con bxslider para categorias -->
+ 
 
-<section class="container" >
-<h4 class="center-align"style="color: #7a7a7a;">Todas las categorías</h4>
+<section class="container-wide" style="background-color:#b5b5b5; height:550px;">
+<h4 class="center-align"style="color: #3a3a3a; padding-top:25px; border-bottom:4px solid #b50307; width:400px;font-weight:400;">Todas las categorías</h4>
 
-    <div class="sliderx " >
-        
+<div class="row " style="width:80%;">
 
-
-            <div class="row " style="padding: 25px;box-shadow: 0 2px 4px rgba(0,0,0,0.3)">
-
-                <div class="col s12 m4 l4">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-image">
-                            <img src="Recursos/img/Producto4.jpg">
-                        </div>
-                        <div class="card-content">
-                            <p>Texto referencial.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m4 l4">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-image">
-                            <img src="Recursos/img/Producto4.jpg">
-                        </div>
-                        <div class="card-content">
-                            <p>Texto referencial.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m4 l4">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-image">
-                            <img src="Recursos/img/Producto4.jpg">
-                        </div>
-                        <div class="card-content">
-                            <p>Texto referencial.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-          
-            </div>
-        
-        <div>
-    </div>
-</div>
-
-
+  <div class="col s12 m5 l5" style="padding-top:15%;">
     
+      <select class="browser-default">
+        <option value="" disabled selected>Elige la categoría que estás buscando</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+      </select>
+  </div>
+
+
+  <div class="col s12 m2 l2">
+
+  </div>
+
+
+  <div class="col s12 m5 l5" style="padding-left:20px;">
+      <div class="card" style="background-color:white; width:420px; height:250px;">
+          <div class="card-image" style="width:420px; height:auto;">
+              <img src="Recursos/img/Categoríaled.jpg">
+          </div>
+        
+          <div class="card-content" style="background-color:white; ">
+            <p style="color:#151515; font-size:12pt; font-weight:600;">Leds y Tranformadores</p>
+            <a class="waves-effect waves-light btn " href="#" style="background-color:#b50307;color:white; margin-left:250px; ">Más info</a>
+          </div>
+      </div>
+  </div>
+
 </div>
+
 </section>
 
 <br>
 
 
 <section class="container-wide" style="padding-top:5px;">
-<h4 class="center-align"style="color: #7a7a7a;">Tiendas</h4>
+<h4 class="center-align"style="color: #3a3a3a; border-bottom:4px solid #b50307; width:200px;font-weight:400;">Tiendas</h4>
 <br>
+
+
     <div class="row" style="width:90%;">
 
         <div class="col s12 m6 l6">

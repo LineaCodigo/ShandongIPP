@@ -47,373 +47,111 @@
 
 
 <section class="container" style="width:90%;min-height: 350px;margin-top: 70px;margin-bottom: 15px;">
-<h4 style="color: #3f3f3f;" >Categoría 1</h4>
-<hr style="width:100%;">
+
+
 <div class="row">
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-        <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
+  <div class="col s12 m4 l4">
+      <select class="browser-default">
+        <option value="" disabled selected>Elige la categoría que estás buscando</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+      </select>
+  </div>
+  <div class="col s12 m4 l4">
+      <select class="browser-default">
+        <option value="" disabled selected>Elige la categoría que estás buscando</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+      </select>
+</div>
+  <div class="col s12 m4 l4">
+      <select class="browser-default">
+        <option value="" disabled selected>Elige la categoría que estás buscando</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+      </select>
+</div>
+</div>
 
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
+<div class="row">
 
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto2.jpg">
+  <div class="chip">
+    Tag
+    <i class="close material-icons">close</i>
+  </div>
 
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
+    <div class="chip">
+    Tag
+    <i class="close material-icons">close</i>
+  </div>
 
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto3.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-  
-  <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-
-
-
+    <div class="chip">
+    Tag
+    <i class="close material-icons">close</i>
+  </div>
 
 </div>
 
-<h4 style="color: #3f3f3f;" >Categoría 2</h4>
-<hr style="width:100%;">
 <div class="row">
     <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-        <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-
+        <div class="card" style="background-color:white;">
+            <div class="card-image">
+              <img src="Recursos/img/Producto1.jpg">
+            </div>
+          <div class="card-content" style="background-color:white; height:110px;">
+            <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
+            <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
+          </div>
         </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
     </div>
 
     <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto2.jpg">
-
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-
-        </div>
-      </div>
+            <div class="card" style="background-color:white;">
+              <div class="card-image">
+                <img src="Recursos/img/Producto1.jpg">
+              </div>
+            <div class="card-content" style="background-color:white; height:110px;">
+              <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
+              <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
+            </div>
+    </div>
     </div>
 
     <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto3.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-  
-  <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-</div>
-
-<h4 style="color: #3f3f3f;" >Categoría 3</h4>
-<hr style="width:100%;">
-<div class="row">
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-        <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
+            <div class="card" style="background-color:white;">
+              <div class="card-image">
+                <img src="Recursos/img/Producto1.jpg">
+              </div>
+              <div class="card-content" style="background-color:white; height:110px;">
+                <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
+                <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
+              </div>
+            </div>
     </div>
 
     <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto2.jpg">
-
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-
-        </div>
-      </div>
+            <div class="card" style="background-color:white;">
+              <div class="card-image">
+                <img src="Recursos/img/Producto1.jpg">
+              </div>
+              <div class="card-content" style="background-color:white; height:110px;">
+                <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
+                <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
+              </div>
+            </div>
     </div>
 
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto3.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-  
-  <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-</div>
-
-<h4 style="color: #3f3f3f;" >Categoría 4</h4>
-<hr style="width:100%;">
-<div class="row">
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-        <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto2.jpg">
-
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto3.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-  
-  <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-</div>
 
 
-<h4 style="color: #3f3f3f;" >Categoría 5</h4>
-<hr style="width:100%;">
-<div class="row">
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-        <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
 
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto2.jpg">
-
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto3.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
-
-  
-  <div class="col s12 m3 l3">
-      <div class="card blue-grey darken-1">
-      <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg">
-          
-        </div>
-        <div class="card-content">
-          <p>Texto referencial.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Ver más</a>
-          
-        </div>
-      </div>
-    </div>
 
 </div>
 
 
 </section>
-
-
-
-
-
-
-
-
-
-
 <br><br>
 
 <!--   Pie de página -->

@@ -52,7 +52,7 @@
            <div class="col s12 m6">
             <div class="row" style="margin: 150px auto 0;max-width: 500px;">
                 <div class="col s12 m12">
-                    <img src="Recursos/img/LogoShandong.png" alt="" class="responsive-img"/>   
+                    <img src="Recursos/img/LogoShandong-blanco.png" alt="" class="responsive-img"/>   
                 </div>                                
             </div> 
 
