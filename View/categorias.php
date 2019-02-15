@@ -97,7 +97,7 @@
 
 <div class="row">
     <div class="col s12 m3 l3">
-        <div class="card" style="background-color:white;">
+        <div class="card hoverable" style="background-color:white; padding: 10px;">
             <div class="card-image">
               <img src="Recursos/img/Producto1.jpg">
             </div>
@@ -109,7 +109,7 @@
     </div>
 
     <div class="col s12 m3 l3">
-            <div class="card" style="background-color:white;">
+            <div class="card hoverable" style="background-color:white; padding: 10px;">
               <div class="card-image">
                 <img src="Recursos/img/Producto1.jpg">
               </div>
@@ -121,7 +121,7 @@
     </div>
 
     <div class="col s12 m3 l3">
-            <div class="card" style="background-color:white;">
+            <div class="card hoverable" style="background-color:white; padding: 10px;">
               <div class="card-image">
                 <img src="Recursos/img/Producto1.jpg">
               </div>
@@ -133,7 +133,7 @@
     </div>
 
     <div class="col s12 m3 l3">
-            <div class="card" style="background-color:white;">
+            <div class="card hoverable" style="background-color:white; padding: 10px;">
               <div class="card-image">
                 <img src="Recursos/img/Producto1.jpg">
               </div>
