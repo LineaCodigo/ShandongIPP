@@ -3,11 +3,11 @@
 
     <nav class="white">
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i id="imenu" class="material-icons">menu</i></a>
-        <a href="." class="brand-logo left" style="padding-top: 12px; padding-left:50px;width:20%;height: auto;"><img src="Recursos/img/LogoShandong.png" alt="" class="responsive-img" width="120"/></a>
+        <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;width:20%;height: auto;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="responsive-img" width="120"/></a>
         
         <ul class="left hide-on-med-and-down" style="padding-left: 250px;">
         
-        <li><a href="categorias">Categorías</a></li>
+        <li><a href="<?php echo URL; ?>/categorias">Categorías</a></li>
             
         </ul>
         
@@ -45,7 +45,7 @@
 -->
 
 <ul id="slide-out" class="sidenav">
-  <li><a href="." class="brand-logo center" style="padding-top: 10px;"><img src="Recursos/img/LogoShandong.png" alt="" class="responsive-img" width="50"/></a></li>
+  <li><a href="<?php echo URL; ?>" class="brand-logo center" style="padding-top: 10px;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="responsive-img" width="50"/></a></li>
   <li><div class="divider"></div></li>
   <li><a class="waves-effect" href="">Categorías</a></li>
   <li><div class="divider"></div></li>

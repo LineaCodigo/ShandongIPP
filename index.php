@@ -34,8 +34,19 @@ $app->get('/',  function(Request $request, Response $response) {
     include_once 'View/categorias.php';  
  });
 
+ $app->get('/producto-counter-tipo-uno',  function(){  
+    include_once 'View/producto-counter-tipo-uno.php';  
+ });
+
+
  $app->get('/tiendas',  function(){  
     include_once 'View/tiendas.php';  
+ });
+
+ 
+ $app->get('/producto/{url}',  function(Request $request, Response $response){  
+    $url = $request->getAttribute('url');
+    include_once 'View/producto.php';  
  });
 
 //-------------------------------------------------//
@@ -50,7 +61,8 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
 // -------------------Clases o Archivos de ruteo-------------------
 
 require './src/config/ini.php';
-require './src/routers/api-sigop.php';
+// require './src/routers/api-sigop.php';
+require './src/routers/api-shandong.php';
 
 $app->run();
  

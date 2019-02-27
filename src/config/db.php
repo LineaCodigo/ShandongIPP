@@ -3,8 +3,8 @@
         // Properties
         private $dbhost = 'localhost';
         private $dbuser = 'root';
-        private $dbpass = '';
-        private $dbname = 'sigop';
+        private $dbpass = 'root';
+        private $dbname = 'bdshandong';
 
         // Connect
         public function connect(){

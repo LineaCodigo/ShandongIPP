@@ -17,7 +17,7 @@
 
                         <div class="col m12 s12">
                             <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
-                            <img src="Recursos/img/iconos/fb-blanco.png" alt="" style="width: 45px;float: left;"/>
+                            <img src="<?php echo URL; ?>/Recursos/img/iconos/fb-blanco.png" alt="" style="width: 45px;float: left;"/>
                             <div style="margin-top: 10px;float: left;">
                                 <span style="color: white;">ShanDong Perú</span>
                             </div>                            
@@ -100,7 +100,7 @@
             <div class="col s12 m3">            
                 <div class="row" style="">
                     <div class="col s12 m12">
-                        <img src="Recursos/img/LogoShandong-blanco.png" alt="" class="responsive-img"/>   
+                        <img src="<?php echo URL; ?>/Recursos/img/LogoShandong-blanco.png" alt="" class="responsive-img"/>   
                     </div>                                
                 </div>                                      
             </div>  

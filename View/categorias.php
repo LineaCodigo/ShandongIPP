@@ -11,6 +11,7 @@
       <!-- Script / Recurso de la página actual-->
 
       <link rel="stylesheet" type="text/css" media="screen" href="Recursos/css/portada.css" />
+      <script src="View/Scripts/categorias.js"></script>
 
       <!-- -------------------------- -->
 
@@ -50,33 +51,17 @@
 
 
 <div class="row">
-  <div class="col s12 m4 l4">
-      <select class="browser-default">
-        <option value="" disabled selected>Elige la categoría que estás buscando</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
+  <div class="input-field col s12 m4 l4">
+      <select id="cbocate">
+      
       </select>
   </div>
-  <div class="col s12 m4 l4">
-      <select class="browser-default">
-        <option value="" disabled selected>Elige la categoría que estás buscando</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </select>
-</div>
-  <div class="col s12 m4 l4">
-      <select class="browser-default">
-        <option value="" disabled selected>Elige la categoría que estás buscando</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </select>
-</div>
+
+
 </div>
 
-<div class="row">
+
+<!-- <div class="row">
 
   <div class="chip">
     Tag
@@ -93,10 +78,12 @@
     <i class="close material-icons">close</i>
   </div>
 
-</div>
+</div> -->
 
-<div class="row">
-    <div class="col s12 m3 l3">
+<div id="contecat" class="row">
+
+    <!-- <div class="col s12 m3 l3">
+        
         <div class="card hoverable" style="background-color:white; padding: 10px;">
             <div class="card-image">
               <img src="Recursos/img/Producto1.jpg">
@@ -106,10 +93,12 @@
             <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
           </div>
         </div>
+
     </div>
 
     <div class="col s12 m3 l3">
-            <div class="card hoverable" style="background-color:white; padding: 10px;">
+         
+         <div class="card hoverable" style="background-color:white; padding: 10px;">
               <div class="card-image">
                 <img src="Recursos/img/Producto1.jpg">
               </div>
@@ -117,19 +106,8 @@
               <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
               <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
             </div>
-    </div>
-    </div>
+        </div>
 
-    <div class="col s12 m3 l3">
-            <div class="card hoverable" style="background-color:white; padding: 10px;">
-              <div class="card-image">
-                <img src="Recursos/img/Producto1.jpg">
-              </div>
-              <div class="card-content" style="background-color:white; height:110px;">
-                <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
-                <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
-              </div>
-            </div>
     </div>
 
     <div class="col s12 m3 l3">
@@ -144,7 +122,17 @@
             </div>
     </div>
 
-
+    <div class="col s12 m3 l3">
+            <div class="card hoverable" style="background-color:white; padding: 10px;">
+              <div class="card-image">
+                <img src="Recursos/img/Producto1.jpg">
+              </div>
+              <div class="card-content" style="background-color:white; height:110px;">
+                <p style="color:#151515; font-size:10pt; margin-top:-14px;">Planchas de PVC - Celtex - Sintra - Polifán</p>
+                <a class="waves-effect waves-light btn-small " href="#" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
+              </div>
+            </div>
+    </div> -->
 
 
 

@@ -153,11 +153,11 @@
     <div class="col s12 m3 l3">
       <div class="card hoverable" style="padding: 10px;">
         <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg" style="border: 0px solid white;">
+          <img src="Recursos/img/1_1.jpg" style="border: 0px solid white;">
         </div>
         <div class="card-content" style="height: 110px;">
           <p style="color: #151515; font-size:10pt; margin-top:-14px;font-weight:600;">Planchas de PVC - Celtex - Sintra - Polifán</p>
-          <a class="waves-effect waves-light btn" href="#" style="margin-top:4px; background: #b50307; color: white;">Más info</a>
+          <a class="waves-effect waves-light btn" href="./producto/Counter-tipo-uno" style="margin-top:4px; background: #b50307; color: white;">Más info</a>
         </div>
       </div>
     </div>
@@ -165,11 +165,11 @@
     <div class="col s12 m3 l3">
       <div class="card hoverable" style="padding: 10px;">
       <div class="card-image">
-          <img src="Recursos/img/Producto2.jpg" style="border: 3px solid white;">
+          <img src="Recursos/img/2_1.jpg" style="border: 3px solid white;">
         </div>
         <div class="card-content" style="height:110px;">
           <p style="color: #151515; font-size:10pt; margin-top:-14px;font-weight:600;">Parante negro nacional</p>
-          <a class="waves-effect waves-light btn-small " href="#" style="margin-top:20px; background: #b50307; color: white;">Más info</a>
+          <a class="waves-effect waves-light btn-small " href="./producto/Counter-tipo-dos" style="margin-top:20px; background: #b50307; color: white;">Más info</a>
         </div>
       </div>
     </div>
@@ -177,11 +177,11 @@
     <div class="col s12 m3 l3">
       <div class="card hoverable" style="padding: 10px;">
       <div class="card-image">
-          <img src="Recursos/img/Producto3.jpg" style="border: 3px solid white;">
+          <img src="Recursos/img/ruletapeque2.jpg" style="border: 3px solid white;">
         </div>
         <div class="card-content" style="height:110px;">
           <p style="color: #151515; font-size:10pt; margin-top:-14px;font-weight:600;">Módulos LED</p>
-          <a class="waves-effect waves-light btn-small " href="#" style="margin-top:20px; background: #b50307; color: white;">Más info</a>
+          <a class="waves-effect waves-light btn-small " href="./producto/ruleta-pequeña" style="margin-top:20px; background: #b50307; color: white;">Más info</a>
         </div>
       
       </div>
@@ -191,12 +191,12 @@
   <div class="col s12 m3 l3">
       <div class="card hoverable" style="padding: 10px;">
       <div class="card-image">
-          <img src="Recursos/img/Producto1.jpg" style="border: 3px solid white;">
+          <img src="Recursos/img/Ruletagrande_1.jpg" style="border: 3px solid white;">
         </div>
         <div class="card-content" style="height:110px;">
           <p style="color: #151515; font-size:10pt; margin-top:-14px;font-weight:600;">Planchas de PVC - Celtex - Sintra - Polifán</p>
           
-          <a class="waves-effect waves-light btn-small" href="#" style="margin-top:5px; background: #b50307; color: white;">Más info</a>    
+          <a class="waves-effect waves-light btn-small" href="./producto/Ruleta-grande" style="margin-top:5px; background: #b50307; color: white;">Más info</a>    
         </div>
         
       </div>
