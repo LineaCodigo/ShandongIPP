@@ -44,7 +44,7 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
             
                     <div class="card hoverable" style="background-color:white; padding: 10px;">
                             <div class="card-image">
-                                <img src="./upload/img/productos/${element.CarpetaPrincipal}/${element.NombreArchivo}">
+                                <img src="${baseurl}/upload/img/productos/${element.CarpetaPrincipal}/${element.NombreArchivo}" target="_blank">
                             </div>
                             <div class="card-content" style="background-color:white; height:110px;">
                                 <p style="color:#151515; font-size:10pt; margin-top:-14px;">${element.NomProducto}</p>

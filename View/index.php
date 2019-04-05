@@ -118,10 +118,10 @@
 
   <!--  Hacer slider principal con mZ   -->
 
-            <div class="slider">
+            <div class="slider" style="margin-top: 35px;">
                 <ul class="slides">
                 <li>
-                    <img id="img1" src="Recursos/img/slider3.jpg"> <!-- random image -->
+                    <img class="responsive-img" id="img1" src="Recursos/img/slider_2.jpg"> <!--  random image -->
                     <!-- <div class="caption center-align"> -->
                     <div class="caption left-align">
                     <!--
@@ -131,7 +131,7 @@
                 </div>
                 </li>
                 <li>
-                    <img id="img2" src="Recursos/img/slider_2.jpg"> <!-- random image -->
+                    <img class="responsive-img" id="img2" src="Recursos/img/slider_1.jpg"> <!--  random image -->
                     <div id="txtport2" class="caption right-align" style="margin-left: 50px;">
                     <!--
                     <h3 style="text-shadow: 2px 2px 3px #757575;">Y será la excusa perfecta</h3>
@@ -146,10 +146,14 @@
 
   <!-- ----------------------------- -->
 
-  <section class="container-wide" style="background: white; min-height:550px;">
-        <h4 class="center-align"style="color: #3a3a3a; border-bottom:4px solid #b50307; width:700px;font-weight:400;margin-top: 80px;">Productos destacados o promociones</h4>
+  <section class="container-wide">        
 
-  <div class="row" style="width:90%; padding: 50px 0 0 0;">
+  <div class="row" style="width:90%; padding: 30px 0 60px 0; margin-bottom: 0px;">
+
+   <div class="col s12 m12 l12">	
+	<h4 class="left-align"style="color: #3a3a3a; border-bottom:4px solid #b50307; max-width:700px;font-weight:400;margin-top: 80px;margin-bottom: 50px;margin-left: -20px;">Productos destacados o promociones</h4>	
+   </div>
+	
     <div class="col s12 m3 l3">
       <div class="card hoverable" style="padding: 10px;">
         <div class="card-image">
@@ -157,7 +161,7 @@
         </div>
         <div class="card-content" style="height: 110px;">
           <p style="color: #151515; font-size:10pt; margin-top:-14px;font-weight:600;">Planchas de PVC - Celtex - Sintra - Polifán</p>
-          <a class="waves-effect waves-light btn" href="./producto/Counter-tipo-uno" style="margin-top:4px; background: #b50307; color: white;">Más info</a>
+          <a class="waves-effect waves-light btn" href="./producto/counter-premium" style="margin-top:4px; background: #b50307; color: white;">Más info</a>
         </div>
       </div>
     </div>
@@ -169,7 +173,7 @@
         </div>
         <div class="card-content" style="height:110px;">
           <p style="color: #151515; font-size:10pt; margin-top:-14px;font-weight:600;">Parante negro nacional</p>
-          <a class="waves-effect waves-light btn-small " href="./producto/Counter-tipo-dos" style="margin-top:20px; background: #b50307; color: white;">Más info</a>
+          <a class="waves-effect waves-light btn-small " href="./producto/ruleta-pequena" style="margin-top:20px; background: #b50307; color: white;">Más info</a>
         </div>
       </div>
     </div>
@@ -205,14 +209,11 @@
     </div>             
 
   </section>
-  <br><br>
 
 
+<section class="container-wide" style="background-color:#b50307; min-height:600px; padding-top: 50px; background-image: url('Recursos/img/sec3.jpg');">
 
- 
-<section class="container-wide" style="background-color:#b50307; min-height:600px; padding-top: 50px;">
-
-<h4 class="center-align"style="color: white; border-bottom:3px solid white; width:400px;font-weight:400;">Todas las categorías</h4>
+<h4 class="left-align"style="color: white; border-bottom:3px solid white; width:400px;font-weight:400;">Todas las categorías</h4>
 
 <div class="row valign-wrapper">
 
@@ -231,8 +232,8 @@
 
   </div>
 
-  <div class="col s12 m4 l4" style="">
-      <div class="card" style="background-color:white; width:370px; min-height:250px;">
+  <div class="col s12 m4 l4 center-align" style="">
+      <div class="card" style="background-color:white; min-height:250px; margin-left: 20px; margin-right: 20px;">
           <div class="card-image" >
               <img src="Recursos/img/Categoríaled.jpg"  style="border: 7px solid white;">
           </div>
@@ -254,49 +255,6 @@
 </section>
 
 
-<!-- 
-<section class="container-wide" style="background-color:#b50307; min-height:600px;">
-
-<h4 class="center-align"style="color: white; padding-top:80px; border-bottom:3px solid white; width:400px;font-weight:400;">Todas las categorías</h4>
-
-<div class="row ">
-
-  <div class="col s12 m5 l5" style="padding-top: 10%;">
-    
-          <div style="position:absolute;transform:translate(10%, 0%);border-radius: 15px; border: 2px solid #dfe1e5;padding-left: 15px;" >
-                <input class="search-txt" type="text" name="" placeholder=" CATEGORÍA DE PRODUCTO" style="color: black;box-shadow: none;border: none;float:left;transition:0.4s;line-height:20px; width:480px;margin-top: 5px;">
-                <a class="search-btn" href="#" style="float:left; transform:translate(-50%, 1%) ;width:42px; height:57px; border-radius:0 15px 15px 0; background:#b50307; align-items:center;border-left: 2px solid white">
-                <i class="medium material-icons">expand_more</i>
-                </a>
-          </div>   
-
-  </div>
-
-
-  <div class="col s12 m2 l2">
-
-  </div>
-
-
-  <div class="col s12 m5 l5" style="padding-left:20px;">
-      <div class="card" style="background-color:white; width:370px; height:250px;">
-          <div class="card-image" >
-              <img src="Recursos/img/Categoríaled.jpg"  style="border: 7px solid white;height: auto;">
-          </div>
-        
-          <div class="card-content center-align" style="background-color:white; ">
-            <p style="color:#151515; font-size:12pt; font-weight:600;padding-bottom: 20px;">Leds y Tranformadores</p>
-            <a class="waves-effect waves-light btn" href="categorias" style="background-color:#b50307;color:white;">Ver categoría</a>
-          </div>
-      </div>
-  </div>
-
-</div>
-
-</section> 
--->
-
-
 
 <br>
 
@@ -314,7 +272,7 @@
 
 
           <div class="col s12 m4 l4 center-align">
-            <div class="card" style="background-color:white; height:400px; width: 400px; margin-top: 80px;">
+            <div class="card" style="background-color:white; margin-top: 80px; margin-left: 20px; margin-right: 20px;">
                 <div class="card-content center-align" style="background-color:white; ">
                   <h4>Tienda Lampa</h4>
                   <br>

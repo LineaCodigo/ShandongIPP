@@ -3,7 +3,7 @@
 
     <nav class="white">
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i id="imenu" class="material-icons">menu</i></a>
-        <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;width:20%;height: auto;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="responsive-img" width="120"/></a>
+        <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;width:15%;height: auto;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="" width="120"/></a>
         
         <ul class="left hide-on-med-and-down" style="padding-left: 250px;">
         
@@ -32,9 +32,9 @@
         </ul>
       
 
-        <ul class="right hide-on-med-and-down">
+        <ul class="right hide-on-med-and-down" style="padding-right: 50px;">
             <li><a href="tiendas">Tiendas</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#contacto">Contacto</a></li>	   
         </ul>                
         
     </nav>

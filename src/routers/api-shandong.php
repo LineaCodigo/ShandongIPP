@@ -22,8 +22,8 @@ $app->get('/api-shandong/producto/categoria/{nombre}', function (Request $reques
         }
 
 
-        $sql="SELECT * FROM productos, categorias 
-        where productos.idCategorias = categorias.idCategorias and categorias.NomCategoria like '%$name%'";
+        $sql="SELECT * FROM Productos, Categorias 
+        where Productos.idCategorias = Categorias.idCategorias and Categorias.NomCategoria like '%$name%'";
  
         try{
             
@@ -53,7 +53,7 @@ $app->get('/api-shandong/producto/categoria/id/{id}', function (Request $request
     
     $id = $request->getAttribute('id');    
 
-    $sql="SELECT * FROM productos where productos.idCategorias = '$id'";
+    $sql="SELECT * FROM Productos where Productos.idCategorias = '$id'";
 
     try{
         
@@ -82,7 +82,7 @@ $app->get('/api-shandong/producto/categoria/id/{id}', function (Request $request
 $app->get('/api-shandong/categoria/all', function (Request $request, Response $response) {
     
 
-    $sql="SELECT * FROM categorias";
+    $sql="SELECT * FROM Categorias";
 
     try{
         
@@ -112,7 +112,7 @@ $app->get('/api-shandong/producto/{url}', function (Request $request, Response $
     
     $url = $request->getAttribute('url');    
 
-    $sql="SELECT * FROM productos where productos.nomurl = '$url'";
+    $sql="SELECT * FROM Productos where Productos.nomurl = '$url'";
 
     try{
         
