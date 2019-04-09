@@ -34,7 +34,7 @@
 
                         <div class="col m12 s12">
 
-                            <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
+                            <a href="https://www.facebook.com/" target"_blank">
 
                             <img src="<?php echo URL; ?>/Recursos/img/iconos/fb-blanco.png" alt="" style="width: 45px;float: left;"/>
 
@@ -52,7 +52,7 @@
 
                         <div class="col m12 s12" style="padding-top: 20px;">
 
-                            <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
+                            <a href="" target"_blank">
 
                                 <i class="material-icons prefix" style="float: left;margin-left: 10px;">email</i>
 
@@ -70,7 +70,7 @@
 
                         <div class="col m12 s12" style="padding-top: 20px;">
 
-                            <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
+                            <a href="" target"_blank">
 
                                 <i class="fab fa-whatsapp" style="float: left;margin-left: 10px;font-size: 20pt;"></i>
 
@@ -116,7 +116,7 @@
 
                         <div class="col m12 s12">
 
-                            <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
+                            <a href="./producto/" target"_blank">
 
                             <i class="material-icons prefix" style="float: left;margin-left: 10px; font-size: 10px; margin-top: 5px;">brightness_1</i>
 
@@ -134,7 +134,7 @@
 
                         <div class="col m12 s12">
 
-                            <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
+                            <a href="./producto/" target"_blank">
 
                             <i class="material-icons prefix" style="float: left;margin-left: 10px; font-size: 10px; margin-top: 5px;">brightness_1</i>
 
@@ -152,7 +152,7 @@
 
                         <div class="col m12 s12">
 
-                            <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
+                            <a href="./producto/" target"_blank">
 
                             <i class="material-icons prefix" style="float: left;margin-left: 10px; font-size: 10px; margin-top: 5px;">brightness_1</i>
 
@@ -170,7 +170,7 @@
 
                         <div class="col m12 s12">
 
-                            <a href="https://www.facebook.com/italamigonefotografia/" target"_blank">
+                            <a href="./producto/" target"_blank">
 
                             <i class="material-icons prefix" style="float: left;margin-left: 10px; font-size: 10px; margin-top: 5px;">brightness_1</i>
 

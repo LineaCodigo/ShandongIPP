@@ -1,11 +1,10 @@
-let getUrl = window.location;
-const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1]; 
 
 
  document.addEventListener("DOMContentLoaded",function(){
-
+    
 
     (async function load(){
+
 
         async function getData(url){
   
@@ -47,7 +46,7 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
                                 <img src="${baseurl}/upload/img/productos/${element.CarpetaPrincipal}/${element.NombreArchivo}" target="_blank">
                             </div>
                             <div class="card-content" style="background-color:white; height:110px;">
-                                <p style="color:#151515; font-size:10pt; margin-top:-14px;">${element.NomProducto}</p>
+                                <p style="color:#151515; font-size:10pt; margin-top:-14px;font-weight:600;">${element.NomProducto}</p>
                                 <a class="waves-effect waves-light btn-small " href="${baseurl}/producto/${element.nomurl}" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
                             </div>
                     </div>
@@ -82,7 +81,7 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
                                 <img src="./upload/img/productos/${element.CarpetaPrincipal}/${element.NombreArchivo}">
                             </div>
                             <div class="card-content" style="background-color:white; height:110px;">
-                                <p style="color:#151515; font-size:10pt; margin-top:-14px;">${element.NomProducto}</p>
+                                <p style="color:#151515; font-size:10pt; margin-top:-14px;font-weight:600;">${element.NomProducto}</p>
                                 <a class="waves-effect waves-light btn-small " href="${baseurl}/producto/${element.nomurl}" style="margin-left:150px; margin-top:4px; background-color:#b50307;color:white; ">Más info</a>
                             </div>
                     </div>

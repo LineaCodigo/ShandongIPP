@@ -10,7 +10,9 @@
 
       <!-- Script / Recurso de la página actual-->
 
+      <script src="<?php echo URL; ?>/View/Scripts/main.js"></script>
       <script src="<?php echo URL; ?>/View/Scripts/producto.js"></script>
+      
 
       <!-- -------------------------- -->
 
@@ -47,17 +49,17 @@
         <div class="col s12 l5">            
 
             <div class="col s12 l12">            
-                <img id="imgp" src="" alt="" class="responsive-img"/>
+                <img id="imgp" src="" alt="" class="responsive-img" style="border: 1px solid #afafad;"/>
                 <br><br>
             </div>
-            <div class="col s12 l12 imgsec">            
+            <div id="imagenes" class="col s12 l12 imgsec">            
   
             </div>
             
         </div>
         <div class="col s12 l5 detallep">
 
-                <div class="col s12 l12"><h4>nombre pro</h4></div>
+                <div class="col s12 l12"><h4>Nombre de producto</h4></div>
                 <div class="col s12 l12"><h6><b>Descripción :</b></h6></div>
                 <div class="col s12 l12">
                     <p> - 250 watts de potencia

@@ -1,11 +1,13 @@
-let getUrl = window.location;
-const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1]; 
+// let getUrl = window.location;
+// const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1]; 
 
 
  document.addEventListener("DOMContentLoaded",function(){
 
 
     (async function load(){
+
+
 
         async function getData(url){
   
@@ -25,7 +27,6 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
             );
     
         }
-
 
         async function CargarProducto(urlpro) {
 
@@ -89,19 +90,15 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
             arregloimg.forEach(element => {
                 texthtml += `
                 <div class="col s12 l4">            
-                    <img src="${baseurl}/upload/img/productos/${lista[0].CarpetaPrincipal}/${element}" alt="" class="responsive-img" style="border: 1px solid #424242;"/>
+                    <img src="${baseurl}/upload/img/productos/${lista[0].CarpetaPrincipal}/${element}" alt="" class="responsive-img hoverable" style="border: 1px solid #afafad;cursor:pointer;"/>
                 </div>
                 `
             });
 
             document.querySelector(".imgsec").innerHTML = texthtml
-            console.log(texthtml)
+            //console.log(texthtml)
             
-        }
-
-    
-
-        // Eventos //
+        }        
 
         
 
@@ -114,6 +111,30 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
         await CargarImgSecundarias($url)
 
         //----------------------//
+
+
+
+                // Eventos //
+
+                const listaimg = document.querySelectorAll(".imgsec img")
+
+                listaimg.forEach( function (elemento) {                
+        
+                    elemento.addEventListener("click", function (e) {            
+                        
+                        //console.log(e.target)
+                        
+                        const rutaini = e.target.getAttribute('src')
+                        const rutapri = document.querySelector("#imgp").getAttribute('src')                        
+        
+                        document.querySelector("#imgp").setAttribute('src',rutaini)
+                        e.target.setAttribute('src',rutapri)
+                                
+                    })
+        
+                });
+
+
 
 
         $('select').formSelect();

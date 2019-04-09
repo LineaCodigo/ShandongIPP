@@ -11,6 +11,7 @@
       <!-- Script / Recurso de la página actual-->
 
       <link rel="stylesheet" type="text/css" media="screen" href="Recursos/css/portada.css" />
+      <script src="View/Scripts/main.js"></script>
 
       <!-- -------------------------- -->
 
@@ -147,11 +148,13 @@
   <!-- ----------------------------- -->
 
   <section class="container-wide">        
+  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width:700px;font-weight:400;margin-top: 80px;margin-bottom: 50px;margin-left: 20px;">Productos destacados y promociones</h4>	
 
+  
   <div class="row" style="width:90%; padding: 30px 0 60px 0; margin-bottom: 0px;">
 
    <div class="col s12 m12 l12">	
-	<h4 class="left-align"style="color: #3a3a3a; border-bottom:4px solid #b50307; max-width:700px;font-weight:400;margin-top: 80px;margin-bottom: 50px;margin-left: -20px;">Productos destacados o promociones</h4>	
+	  
    </div>
 	
     <div class="col s12 m3 l3">
@@ -161,7 +164,7 @@
         </div>
         <div class="card-content" style="height: 110px;">
           <p style="color: #151515; font-size:10pt; margin-top:-14px;font-weight:600;">Planchas de PVC - Celtex - Sintra - Polifán</p>
-          <a class="waves-effect waves-light btn" href="./producto/counter-premium" style="margin-top:4px; background: #b50307; color: white;">Más info</a>
+          <a class="waves-effect waves-light btn-small" href="./producto/counter-premium" style="margin-top:4px; background: #b50307; color: white;">Más info</a>
         </div>
       </div>
     </div>
@@ -211,13 +214,14 @@
   </section>
 
 
-<section class="container-wide" style="background-color:#b50307; min-height:600px; padding-top: 50px; background-image: url('Recursos/img/sec3.jpg');">
+<section class="container-wide" style="background-image: url('Recursos/img/sec3.jpg'); background-size:cover;">
 
-<h4 class="left-align"style="color: white; border-bottom:3px solid white; width:400px;font-weight:400;">Todas las categorías</h4>
+	  
+    <h4 class="left-align"style="color: white; border-bottom:3px solid white; max-width:700px;font-weight:400; padding-top: 50px;margin-bottom: 30px; margin-left: 20px;">Todas las categorías</h4>
 
 <div class="row valign-wrapper">
 
-  <div class="col s12 m6 l6" style="padding-left: 20px;margin: 20px 0 20px 0;">
+  <div class="col s12 m6 l6" style="padding-left: 15px;margin: 20px 0 20px 0;">
     
           <div id="cboCate" style="width: 500px; height:60px; border-radius: 15px; border: 2px solid #dfe1e5;padding-left: 15px;" >
                 <input class="search-txt" type="text" name="" placeholder=" CATEGORÍA DE PRODUCTO" style="float:left; color: white; box-shadow: none; border: none; line-height:20px; width: 85%;margin-top: 5px;">
@@ -229,16 +233,16 @@
   </div>
 
   <div class="col s12 m1 l1" style="">
-
+        
   </div>
 
   <div class="col s12 m4 l4 center-align" style="">
       <div class="card" style="background-color:white; min-height:250px; margin-left: 20px; margin-right: 20px;">
           <div class="card-image" >
-              <img src="Recursos/img/Categoríaled.jpg"  style="border: 7px solid white;">
+              <img src="Recursos/img/Led_rgba_amarillo.jpg"  style="border: 13px solid white;">
           </div>
         
-          <div class="card-content center-align" style="background-color:white; ">
+          <div class="card-content center-align" style="background-color:white; margin-top:-20px;">
             <p style="color:#151515; font-size:12pt; font-weight:600;padding-bottom: 20px;">Leds y Tranformadores</p>
             <a class="waves-effect waves-light btn" href="categorias" style="background-color:#b50307;color:white;">Ver categoría</a>
           </div>
@@ -246,19 +250,12 @@
   </div>
 
   <div class="col s12 m1 l1" style="">
-
   </div>
-
-
 </div>
 
 </section>
 
-
-
 <br>
-
-
 
 <section class="container-wide" style="min-height:600px;">
 <!-- <h4 class="center-align"style="color: #3a3a3a; border-bottom:4px solid #b50307; width:200px;font-weight:400;">Tiendas</h4> -->
@@ -284,11 +281,6 @@
                 </div>
             </div>
           </div>
-
-
-
-
-
     </div>
 </section>
 

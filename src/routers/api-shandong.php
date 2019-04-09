@@ -137,3 +137,35 @@ $app->get('/api-shandong/producto/{url}', function (Request $request, Response $
 
     
 });
+
+
+$app->get('/api-shandong/producto/nombre/{nombre}', function (Request $request, Response $response) {
+    
+    $nombre = $request->getAttribute('nombre');    
+
+    $sql="SELECT * FROM Productos where NomProducto like '%$nombre%'";
+
+    try{
+        
+         // Get DB Object
+         $db = new db();
+         // Connect
+         $db = $db->connect();
+         $stmt = $db->query($sql);
+         $resultado = $stmt->fetchAll(PDO::FETCH_OBJ);
+         $db = null;
+         
+         if(count($resultado)>0){
+             echo json_encode($resultado); 
+         }else{
+             echo json_encode("Objeto vacio"); 
+         }
+        
+        
+    } catch(PDOException $e){
+         echo '{"error" : {"text": '.$e->getMessage().'}}';
+    }
+
+    
+});
+
