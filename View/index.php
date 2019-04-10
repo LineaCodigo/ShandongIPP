@@ -214,44 +214,33 @@
   </section>
 
 
-<section class="container-wide" style="background-image: url('Recursos/img/sec3.jpg'); background-size:cover;">
+<section class="container-wide" style="min-height:560px;background-image: url('Recursos/img/sec3v2.jpg'); background-size:cover;">
 
 	  
-    <h4 class="left-align"style="color: white; border-bottom:3px solid white; max-width:700px;font-weight:400; padding-top: 50px;margin-bottom: 30px; margin-left: 20px;">Todas las categorías</h4>
+    <h4 class="left-align"style="color: white; border-bottom:3px solid white; max-width:700px;font-weight:400; padding-top: 50px;margin-bottom: 90px; margin-left: 20px;">Aprende con nosotros</h4>
 
-<div class="row valign-wrapper">
+  <div class="row" style="width:90%;">
 
-  <div class="col s12 m6 l6" style="padding-left: 15px;margin: 20px 0 20px 0;">
-    
-          <div id="cboCate" style="width: 500px; height:60px; border-radius: 15px; border: 2px solid #dfe1e5;padding-left: 15px;" >
-                <input class="search-txt" type="text" name="" placeholder=" CATEGORÍA DE PRODUCTO" style="float:left; color: white; box-shadow: none; border: none; line-height:20px; width: 85%;margin-top: 5px;">
-                <a class="search-btn" href="#" style="float:left; width:15%; height:56px; border-radius:0 15px 15px 0; background:#b50307; border-left: 2px solid white">
-                  <i class="medium material-icons" >expand_more</i>
-                </a>
-          </div>   
-
-  </div>
-
-  <div class="col s12 m1 l1" style="">
-        
-  </div>
-
-  <div class="col s12 m4 l4 center-align" style="">
-      <div class="card" style="background-color:white; min-height:250px; margin-left: 20px; margin-right: 20px;">
-          <div class="card-image" >
-              <img src="Recursos/img/Led_rgba_amarillo.jpg"  style="border: 13px solid white;">
-          </div>
-        
-          <div class="card-content center-align" style="background-color:white; margin-top:-20px;">
-            <p style="color:#151515; font-size:12pt; font-weight:600;padding-bottom: 20px;">Leds y Tranformadores</p>
-            <a class="waves-effect waves-light btn" href="categorias" style="background-color:#b50307;color:white;">Ver categoría</a>
+      <div class="col s12 m4 l4" style="margin-bottom: 10px;">
+          <div class="video-container">
+          <iframe width="650" height="365" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
       </div>
-  </div>
 
-  <div class="col s12 m1 l1" style="">
+      <div class="col s12 m4 l4" style="margin-bottom: 10px;">
+          <div class="video-container">
+          <iframe width="650" height="365" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+      </div>
+  
+      <div class="col s12 m4 l4" style="margin-bottom: 10px;">
+          <div class="video-container">
+          <iframe width="650" height="365" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </div>
+
   </div>
-</div>
 
 </section>
 

@@ -6,9 +6,11 @@
 
         private $dbhost = 'localhost';
 
-        private $dbuser = 'publifac_userbd';
+        // private $dbuser = 'publifac_userbd';
+        // private $dbpass = 'Publifac2354#';
 
-        private $dbpass = 'Publifac2354#';
+        private $dbuser = 'root';
+        private $dbpass = 'root';
 
         private $dbname = 'publifac_shandong';
 

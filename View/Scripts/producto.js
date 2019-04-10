@@ -89,7 +89,7 @@
 
             arregloimg.forEach(element => {
                 texthtml += `
-                <div class="col s12 l4">            
+                <div class="col s4 l4">            
                     <img src="${baseurl}/upload/img/productos/${lista[0].CarpetaPrincipal}/${element}" alt="" class="responsive-img hoverable" style="border: 1px solid #afafad;cursor:pointer;"/>
                 </div>
                 `

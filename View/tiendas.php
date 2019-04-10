@@ -14,15 +14,20 @@
 
       <!-- -------------------------- -->
 
-      <script>
-
-
-        
-      </script>
-
       <style>
          
       </style>
+
+     <script>
+
+        $(document).ready(function(){
+
+          $('.sidenav').sidenav();
+
+        })      
+      
+      </script>
+
 
 
 </head>

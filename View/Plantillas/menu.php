@@ -3,7 +3,7 @@
 
     <nav class="white">
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i id="imenu" class="material-icons">menu</i></a>
-        <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;width:15%;height: auto;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="" width="120"/></a>
+        <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="" width="120"/></a>
         
         <ul class="left hide-on-med-and-down" style="padding-left: 250px;">        
             <li><a href="<?php echo URL; ?>/categorias">Categorías</a></li>            
@@ -39,19 +39,18 @@
 -->
 
 <ul id="slide-out" class="sidenav">
-  <li><a href="<?php echo URL; ?>" class="brand-logo center" style="padding-top: 10px;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="responsive-img" width="50"/></a></li>
-  <li><div class="divider"></div></li>
-  <li><a class="waves-effect" href="">Categorías</a></li>
-  <li><div class="divider"></div></li>
-  <li class="search">
+  <li><a href="<?php echo URL; ?>" class="brand-logo center" style="padding-top: 9px !important;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" width="50"/></a></li>
+  <li><br><div class="divider"></div></li>
+  <li><a href="<?php echo URL; ?>/categorias">Categorías</a></li>
+  <!-- <li><div class="divider"></div></li> -->
+  <!-- <li class="search">
     <div class="search-wrapper">
         <input id="search" placeholder="Search">
             <i class="material-icons">search</i>
         <div class="search-results"></div>
         </div>
-  </li>
-  <li><a class="waves-effect"  href="./#tiendas">Tiendas</a></li>
-  <li><div class="divider"></div></li>
+  </li> -->
+  <li><a class="waves-effect"  href="tiendas">Tiendas</a></li>
   <li><a class="waves-effect"  href="#contacto">Contacto</a></li>
   <li><div class="divider"></div></li>
 </ul>
