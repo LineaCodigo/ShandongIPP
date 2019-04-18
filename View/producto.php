@@ -56,12 +56,10 @@
 
     <div class="row">
 
-        <div class="col s12 l1">
-                
-
+        <div class="col s12 l1">   
         </div>
 
-        <div class="col s12 l5">            
+        <div class="col s12 l4">            
 
             <div class="col s12 l12">            
                 <img id="imgp" src="" alt="" class="responsive-img" style="border: 1px solid #afafad;"/>
@@ -100,7 +98,18 @@
                 
         </div>
         
-        
+        <div class="col s12 l2 center-align">            
+               <div class="col s12 l12 ">            
+                  <img src="<?php echo URL; ?>/Recursos/img/1_1.jpg" style="border: 1px solid #afafad;width:200px;">
+               </div>
+               <div class="col s12 l12">            
+                  <img src="<?php echo URL; ?>/Recursos/img/2_1.jpg" style="border: 1px solid #afafad;width:200px;">
+               </div>
+               <div class="col s12 l12">            
+                  <img src="<?php echo URL; ?>/Recursos/img/1_1.jpg" style="border: 1px solid #afafad;width:200px;">
+               </div>
+
+        </div>
 
     </div>
 
