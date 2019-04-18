@@ -34,7 +34,7 @@
 
                         <div class="col m12 s12">
 
-                            <a href="https://www.facebook.com/" target"_blank">
+                            <a href="https://www.facebook.com/insumosparapublicidad" target"_blank">
 
                             <img src="<?php echo URL; ?>/Recursos/img/iconos/fb-blanco.png" alt="" style="width: 45px;float: left;"/>
 
@@ -49,10 +49,27 @@
                         </div>
 
 
+                        <div class="col m12 s12">
+
+                            <a href="https://www.instagram.com/insumosparapublicidad" target"_blank">
+
+                            <img src="<?php echo URL; ?>/Recursos/img/iconos/instagram-blanco.png" alt="" style="width: 35px;float: left;margin-top: 20px;margin-left:5px;"/>
+
+                            <div style="margin-top: 27px;margin-left:6px;float: left;">
+
+                                <span style="color: white;">ShanDong Perú</span>
+
+                            </div>                            
+
+                            </a>                                                        
+
+                        </div>
+
+
 
                         <div class="col m12 s12" style="padding-top: 20px;">
 
-                            <a href="" target"_blank">
+                            <a href="shandongventas@gmail.com" target"_blank">
 
                                 <i class="material-icons prefix" style="float: left;margin-left: 10px;">email</i>
 
@@ -76,7 +93,7 @@
 
                                 <div style="margin-top: 2px;float: left;margin-left: 15px;">
 
-                                    <span style="color: white;">994403656</span>
+                                    <span style="color: white;">+51 945318669</span>
 
                                 </div>
 
@@ -202,7 +219,7 @@
 
                     <div class="col s12 m12">
 
-                        <img src="<?php echo URL; ?>/Recursos/img/LogoShandong-blanco.png" alt="" class="responsive-img"/>   
+                        <img src="<?php echo URL; ?>/Recursos/img/Logo Shandong Blanco-08.png" alt="" class="responsive-img" width="450"/>   
 
                     </div>                                
 
