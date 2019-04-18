@@ -6,7 +6,7 @@
                 <div class="col l5">
                 </div>                
                 <div class="col l3">
-                    <a href="" target"_blank"="">
+                    <a href="mailto:shandongventas@gmail.com" target"_blank"="">
                         <i class="material-icons prefix" style="float: left; margin-left: 10px;">email</i>
                         <div style="margin-top: 2px;float: left;margin-left: 10px;">
                             <span style="color: white;">shandongventas@gmail.com</span>
@@ -15,7 +15,7 @@
                 </div>
                 
                 <div class="col l2">                    
-                    <a href="https://www.facebook.com/" target"_blank"="">
+                    <a href="https://www.facebook.com/insumosparapublicidad" target"_blank"="">
                         <i class="fab fa-facebook-f" style="float: left;margin-left: 0px; font-size: 17pt;margin-top: 2px;"></i>
                                     <div style="margin-top: 2px; float: left;margin-left: 10px;">
                                     <span style="color: white;">insumosparapublicidad</span>
@@ -23,7 +23,7 @@
                     </a>                                                        
                 </div>
                 <div class="col l2 center-align">
-                    <a href="" target"_blank"="">
+                    <a href="https://api.whatsapp.com/send?phone=945318669&amp;text=Hola,Shandong:" target"_blank"="">
                                     <i class="fab fa-whatsapp" style="float: left;margin-left: 10px;font-size: 20pt;"></i>
                                     <div style="margin-top: 2px; float: left;margin-left: 15px;">
                                         <span style="color: white;">945318669</span>

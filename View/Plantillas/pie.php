@@ -69,17 +69,12 @@
 
                         <div class="col m12 s12" style="padding-top: 20px;">
 
-                            <a href="shandongventas@gmail.com" target"_blank">
-
-                                <i class="material-icons prefix" style="float: left;margin-left: 10px;">email</i>
-
+                            <a href="mailto:shandongventas@gmail.com" target"_blank"="">
+                                <i class="material-icons prefix" style="float: left; margin-left: 10px;">email</i>
                                 <div style="margin-top: 2px;float: left;margin-left: 10px;">
-
-                                    <span style="color: white;">Correo electrónico</span>
-
+                                    <span style="color: white;">shandongventas@gmail.com</span>
                                 </div>
-
-                            </a>                        
+                            </a>                      
 
                         </div>
 

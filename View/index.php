@@ -214,7 +214,7 @@
   </section>
 
 
-<section class="container-wide" style="min-height:560px;background-image: url('Recursos/img/sec3v2.jpg'); background-size:cover;">
+<section class="container-wide" style="min-height:560px;background-image: url('Recursos/img/sec3.jpg'); background-size:cover;">
 
 	  
     <h4 class="left-align"style="color: white; border-bottom:3px solid white; max-width:700px;font-weight:400; padding-top: 50px;margin-bottom: 90px; margin-left: 20px;">Aprende con nosotros</h4>
