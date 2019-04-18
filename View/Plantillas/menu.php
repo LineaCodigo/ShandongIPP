@@ -1,7 +1,43 @@
 
-<div class="navbar-fixed">    
+<div style="position: fixed; width: 100%; top: 0; z-index: 900; background-color: #5e5e5e; height:50px; color: white; float: right;">
+            
+            <div class="row">
+
+                <div class="col l5">
+                </div>                
+                <div class="col l3">
+                    <a href="" target"_blank"="">
+                        <i class="material-icons prefix" style="float: left; margin-left: 10px;">email</i>
+                        <div style="margin-top: 2px;float: left;margin-left: 10px;">
+                            <span style="color: white;">shandongventas@gmail.com</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col l2">                    
+                    <a href="https://www.facebook.com/" target"_blank"="">
+                        <i class="fab fa-facebook-f" style="float: left;margin-left: 0px; font-size: 17pt;margin-top: 2px;"></i>
+                                    <div style="margin-top: 2px; float: left;margin-left: 10px;">
+                                    <span style="color: white;">insumosparapublicidad</span>
+                        </div>                        
+                    </a>                                                        
+                </div>
+                <div class="col l2 center-align">
+                    <a href="" target"_blank"="">
+                                    <i class="fab fa-whatsapp" style="float: left;margin-left: 10px;font-size: 20pt;"></i>
+                                    <div style="margin-top: 2px; float: left;margin-left: 15px;">
+                                        <span style="color: white;">945318669</span>
+                                    </div>
+                    </a>           
+                </div>                                    
+            </div>
+            
+</div>
+
+<div class="navbar-fixed" style="margin-top: 30px;">   
 
     <nav class="white">
+            
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i id="imenu" class="material-icons">menu</i></a>
         <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="" width="120"/></a>
         
