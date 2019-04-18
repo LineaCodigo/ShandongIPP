@@ -10,7 +10,7 @@
         // private $dbpass = 'Publifac2354#';
 
         private $dbuser = 'root';
-        private $dbpass = 'root';
+        private $dbpass = '';
 
         private $dbname = 'publifac_shandong';
 

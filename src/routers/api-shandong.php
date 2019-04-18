@@ -107,6 +107,35 @@ $app->get('/api-shandong/categoria/all', function (Request $request, Response $r
     
 });
 
+$app->get('/api-shandong/productosdestacados', function (Request $request, Response $response) {
+    
+
+    $sql="SELECT * FROM Productos where Destacado='s'";
+
+    try{
+        
+         // Get DB Object
+         $db = new db();
+         // Connect
+         $db = $db->connect();
+         $stmt = $db->query($sql);
+         $resultado = $stmt->fetchAll(PDO::FETCH_OBJ);
+         $db = null;
+         
+         if(count($resultado)>0){
+             echo json_encode($resultado); 
+         }else{
+             echo json_encode("Objeto vacio"); 
+         }
+        
+        
+    } catch(PDOException $e){
+         echo '{"error" : {"text": '.$e->getMessage().'}}';
+    }
+    
+});
+
+
 
 $app->get('/api-shandong/producto/{url}', function (Request $request, Response $response) {
     

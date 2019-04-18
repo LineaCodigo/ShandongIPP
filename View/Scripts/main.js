@@ -53,6 +53,30 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
             }
         }
 
+        async function ConsultarProductosDestacados(){
+
+            const url = `${baseurl}/api-shandong/productosdestacados`
+            const lista = await getData(url) 
+            
+            //console.log(lista)
+            const pd = document.querySelector("#divpd")
+
+            lista.forEach(element => {
+                
+                html = `<div class="col m12 s12">
+                            <a href="./producto/" target"_blank">
+                            <i class="material-icons prefix" style="float: left;margin-left: 10px; font-size: 10px; margin-top: 5px;">brightness_1</i>
+                            <div style="float: left;;margin-left: 10px;">
+                            <span style="color: white;">${element.NomProducto}</span>
+                            </div>                            
+                            </a>                                                   
+                        </div>`
+
+                pd.innerHTML = pd.innerHTML + html        
+                
+            });
+
+        }
     
 
         // Eventos //
@@ -66,18 +90,16 @@ const baseurl =  getUrl.origin + '/' +getUrl.pathname.split('/')[1];
          
         })
 
-        
+        //----------------------------//
 
-        //------------------------//
 
-        // Cargar url del producto//
-
-       
 
         //----------------------//
 
 
         $('select').formSelect();
+        
+        ConsultarProductosDestacados()
 
 
 

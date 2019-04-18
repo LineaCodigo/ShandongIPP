@@ -112,7 +112,7 @@
 
 
 
-                <div class="row" style="padding-left: 20px;">
+                <div id="divpd" class="row" style="padding-left: 20px;">
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-                        <div class="col m12 s12">
+                        <!-- <div class="col m12 s12">
 
                             <a href="./producto/" target"_blank">
 
@@ -194,7 +194,7 @@
 
                             </a>                                                        
 
-                        </div>
+                        </div> -->
 
 
 
