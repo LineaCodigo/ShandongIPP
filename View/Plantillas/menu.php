@@ -39,7 +39,7 @@
     <nav class="white">
             
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i id="imenu" class="material-icons">menu</i></a>
-        <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" class="" width="120"/></a>
+        <a href="<?php echo URL; ?>" class="brand-logo left" style="padding-top: 12px; padding-left:50px;"><img src="<?php echo URL; ?>/Recursos/img/Logo Shandong-08.png" alt="" class="" width="120"/></a>
         
         <ul class="left hide-on-med-and-down" style="padding-left: 250px;">        
             <li><a href="<?php echo URL; ?>/categorias">Categorías</a></li>            
