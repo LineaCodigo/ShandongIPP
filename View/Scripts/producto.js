@@ -3,7 +3,7 @@
 
 
  document.addEventListener("DOMContentLoaded",function(){
-
+     
 
     (async function load(){
 
@@ -138,7 +138,13 @@
 
 
         $('select').formSelect();
+        // $('.carousel').carousel();
 
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+          });
+              
 
 
     })()

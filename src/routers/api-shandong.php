@@ -112,6 +112,7 @@ $app->get('/api-shandong/productosdestacados', function (Request $request, Respo
 
     $sql="SELECT * FROM Productos where Destacado='s'";
 
+    
     try{
         
          // Get DB Object

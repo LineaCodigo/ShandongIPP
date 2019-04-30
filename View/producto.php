@@ -99,30 +99,46 @@
         </div>
         
         <div class="col s12 l2 center-align">            
-               <div class="col s12 l12 ">            
-                  <img src="<?php echo URL; ?>/Recursos/img/1_1.jpg" style="border: 1px solid #afafad;width:200px;">
-               </div>
-               <div class="col s12 l12">            
-                  <img src="<?php echo URL; ?>/Recursos/img/2_1.jpg" style="border: 1px solid #afafad;width:200px;">
-               </div>
-               <div class="col s12 l12">            
-                  <img src="<?php echo URL; ?>/Recursos/img/1_1.jpg" style="border: 1px solid #afafad;width:200px;">
-               </div>
-
+              
         </div>
 
     </div>
 
 
-
-
 </section>
+
+
+<section class="container-wide"> 
+       
+  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width:700px;font-weight:400;margin-top: 0px;margin-left: 20px;">Usos y aplicaciones</h4>	
+
+  
+  <div class="row" style="padding: 0px 0 0px 30px;">
+
+      
+        <!-- <img src="http://localhost/ShandongIPP/Recursos/img/1_1.jpg" style="border: 1px solid #afafad;"> -->
+
+        <div class="col s12 m2 l2"
+        >
+        </div>
+
+        <div class="col s12 m6 l6 carousel carousel-slider" style="height: 350px;">
+          <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+          <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+          <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+          <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+        </div>
+            
+    
+  </div>             
+
+  </section>
 
 
 
 <section class="container-wide"> 
        
-  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width:700px;font-weight:400;margin-top: 80px;margin-bottom: 50px;margin-left: 20px;">Productos relacionados</h4>	
+  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width:700px;font-weight:400;margin-bottom: 50px;margin-left: 20px;">Productos relacionados</h4>	
 
   
   <div class="row" style="width:90%; padding: 30px 0 60px 0; margin-bottom: 0px;">
