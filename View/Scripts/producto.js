@@ -143,9 +143,14 @@
         $('.carousel.carousel-slider').carousel({
             fullWidth: true,
             indicators: true
-          });
-              
+        });
 
+        setInterval(() => {
+
+            $('.carousel.carousel-slider').carousel('next');            
+            
+        }, 3000);
+              
 
     })()
 

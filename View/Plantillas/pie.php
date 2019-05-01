@@ -82,7 +82,7 @@
 
                         <div class="col m12 s12" style="padding-top: 20px;">
 
-                            <a href="" target"_blank">
+                            <a href="https://api.whatsapp.com/send?phone=51945318669&amp;text=Hola,Shandong:" target"_blank">
 
                                 <i class="fab fa-whatsapp" style="float: left;margin-left: 10px;font-size: 20pt;"></i>
 

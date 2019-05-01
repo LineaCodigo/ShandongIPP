@@ -43,6 +43,10 @@ $app->get('/',  function(Request $request, Response $response) {
     include_once 'View/tiendas.php';  
  });
 
+ $app->get('/catalogo',  function(){  
+   include_once 'View/catalogo.php';  
+});
+
  
  $app->get('/producto/{url}',  function(Request $request, Response $response){  
     $url = $request->getAttribute('url');

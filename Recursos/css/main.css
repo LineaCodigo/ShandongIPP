@@ -97,3 +97,10 @@ nav ul a {
 }
 
 
+.btn, .btn-large, .btn-small, .btn-flat{
+
+    border-radius: 25px !important;
+
+}
+
+

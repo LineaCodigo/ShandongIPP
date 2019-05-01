@@ -63,6 +63,7 @@
       
 
         <ul class="right hide-on-med-and-down" style="padding-right: 50px;">
+            <li><a href="catalogo">Catálogo</a></li>
             <li><a href="tiendas">Tiendas</a></li>
             <li><a href="#contacto">Contacto</a></li>	   
         </ul>                

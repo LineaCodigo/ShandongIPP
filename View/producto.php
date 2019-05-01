@@ -113,13 +113,12 @@
   <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width:700px;font-weight:400;margin-top: 0px;margin-left: 20px;">Usos y aplicaciones</h4>	
 
   
-  <div class="row" style="padding: 0px 0 0px 30px;">
+  <div class="row" style="padding: 50px 0 0px 30px;">
 
       
         <!-- <img src="http://localhost/ShandongIPP/Recursos/img/1_1.jpg" style="border: 1px solid #afafad;"> -->
 
-        <div class="col s12 m2 l2"
-        >
+        <div class="col s12 m2 l2">
         </div>
 
         <div class="col s12 m6 l6 carousel carousel-slider" style="height: 350px;">
