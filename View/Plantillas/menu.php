@@ -1,5 +1,5 @@
 
-<div style="position: fixed; width: 100%; top: 0; z-index: 900; background-color: #5e5e5e; height:50px; color: white; float: right;">
+<div style="position: fixed; width: 100%; top: 0; z-index: 900; background-color: #b50307; height:50px; color: white; float: right;">
             
             <div class="row">
 
@@ -63,8 +63,8 @@
       
 
         <ul class="right hide-on-med-and-down" style="padding-right: 50px;">
-            <li><a href="catalogo">Catálogo</a></li>
-            <li><a href="tiendas">Tiendas</a></li>
+            <li><a href="<?php echo URL; ?>/catalogo">Catálogo</a></li>
+            <li><a href="<?php echo URL; ?>/tiendas">Tiendas</a></li>
             <li><a href="#contacto">Contacto</a></li>	   
         </ul>                
         
@@ -76,7 +76,7 @@
 -->
 
 <ul id="slide-out" class="sidenav">
-  <li><a href="<?php echo URL; ?>" class="brand-logo center" style="padding-top: 9px !important;"><img src="<?php echo URL; ?>/Recursos/img/LogoShandong.png" alt="" width="50"/></a></li>
+  <li><a href="<?php echo URL; ?>" class="brand-logo center" style="padding-top: 9px !important;"><img src="<?php echo URL; ?>/Recursos/img/Logo Shandong-08.png" alt="" width="50"/></a></li>
   <li><br><div class="divider"></div></li>
   <li><a href="<?php echo URL; ?>/categorias">Categorías</a></li>
   <!-- <li><div class="divider"></div></li> -->
@@ -87,8 +87,9 @@
         <div class="search-results"></div>
         </div>
   </li> -->
-  <li><a class="waves-effect"  href="tiendas">Tiendas</a></li>
-  <li><a class="waves-effect"  href="#contacto">Contacto</a></li>
+  <li><a class="waves-effect" href="<?php echo URL; ?>/catalogo">Catálogo</a></li>
+  <li><a class="waves-effect" href="<?php echo URL; ?>/tiendas">Tiendas</a></li>
+  <li><a class="waves-effect" href="#contacto">Contacto</a></li>
   <li><div class="divider"></div></li>
 </ul>
 

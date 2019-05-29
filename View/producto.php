@@ -110,7 +110,7 @@
 
 <section class="container-wide"> 
        
-  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width:700px;font-weight:400;margin-top: 0px;margin-left: 20px;">Usos y aplicaciones</h4>	
+  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width: 340px;font-weight:400;margin-top: 0px;margin-left: 20px;">Usos y aplicaciones</h4>	
 
   
   <div class="row" style="padding: 50px 0 0px 30px;">
@@ -137,7 +137,7 @@
 
 <section class="container-wide"> 
        
-  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width:700px;font-weight:400;margin-bottom: 50px;margin-left: 20px;">Productos relacionados</h4>	
+  <h4 class="left-align"style="color: #3a3a3a; border-bottom:3px solid #b50307; max-width: 420px;font-weight:400;margin-bottom: 50px;margin-left: 20px;">Productos relacionados</h4>	
 
   
   <div class="row" style="width:90%; padding: 30px 0 60px 0; margin-bottom: 0px;">

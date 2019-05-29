@@ -17,10 +17,6 @@
 
       <script>
 
-
-
-
-
  
          /* Script de carrusel slider página principal */
 
@@ -119,31 +115,70 @@
 
   <!--  Hacer slider principal con mZ   -->
 
-            <div class="slider" style="margin-top: 35px;">
+            <!-- <div class="slider" style="margin-top: 35px;">
                 <ul class="slides">
                 <li>
-                    <img class="responsive-img" id="img1" src="Recursos/img/slider_2.jpg"> <!--  random image -->
-                    <!-- <div class="caption center-align"> -->
+                    <img class="responsive-img" id="img1" src="Recursos/img/slider_2.jpg"> 
+                   
                     <div class="caption left-align">
-                    <!--
-                    <h3 style="text-shadow: 2px 2px 3px #424242;">Una foto se convertirá</h3>
-                    <h5 class="light white-text text-lighten-3" style="text-shadow: 2px 2px 2px #424242;">en la gran prueba de nuestro amor<br>para toda la vida</h5>
-        -->
+
                 </div>
                 </li>
                 <li>
-                    <img class="responsive-img" id="img2" src="Recursos/img/slider_1.jpg"> <!--  random image -->
+                    <img class="responsive-img" id="img2" src="Recursos/img/slider_1.jpg">
                     <div id="txtport2" class="caption right-align" style="margin-left: 50px;">
-                    <!--
-                    <h3 style="text-shadow: 2px 2px 3px #757575;">Y será la excusa perfecta</h3>
-                    <h5 class="light white-text text-lighten-3" style="text-shadow: 2px 2px 3px #757575;">para tener al lado a nuestros hijos,<br>tengan la edad que tengan.</h5>
-        -->    
+
                     </div>
                 </li>
                 
                 </ul>                
 
+            </div> -->
+
+
+
+            <div class="slider" style="margin-top: 35px;">
+                <ul class="slides">
+                
+                    <?php
+    
+          //-----------------------------------------------
+    
+            $conta = 0;
+            $ruta = "./upload/img/banner";                   
+            $directorio = opendir($ruta); //ruta actual 
+            
+            while ($archivo = readdir($directorio)) //obtenemos un archivo y luego otro sucesivamente
+            {                        
+
+                if (is_dir($archivo))//verificamos si es o no un directorio
+                {
+                    //$resultado = "[". $archivo . "]<br />"; //de ser un directorio lo envolvemos entre corchetes
+                }
+                else
+                {   
+                    $conta = $conta + 1;  
+                    //echo $archivo; 
+                    // echo "<div><a href='$ruta/$archivo' data-lightbox='example-image-link'><img class='example-1' src='". $ruta . "/" . "$archivo' width='1000' alt='image-1'></a></div>";                                         
+                    echo "<li><img class='responsive-img' id='img1' src='$ruta/$archivo'></li>";
+                }
+            }
+              //---------------------------------------------
+
+              ?>   
+
+
+
+
+                </ul>                
             </div>
+
+
+
+
+ 
+
+    
 
   <!-- ----------------------------- -->
 
